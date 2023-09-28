@@ -1,9 +1,23 @@
 # Test your FastAPI endpoints
 
-GET http://127.0.0.1:8000/
+GET http://127.0.0.1:8000/mine
 Accept: application/json
 ###
 
-GET http://127.0.0.1:8000/hello/User
+GET http://127.0.0.1:8000/chain
 Accept: application/json
+###
+
+GET http://127.0.0.1:8000/hello
+Accept:application/json
+###
+
+POST http://127.0.0.1:8000/transactions/new
+Content-Type: application/json
+
+{
+  "sender": "isajsjisj9832328msd",
+  "recipient": "someone",
+  "amount": 5
+}
 ###
