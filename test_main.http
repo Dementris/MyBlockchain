@@ -8,16 +8,16 @@ GET http://127.0.0.1:8000/chain
 Accept: application/json
 ###
 
-GET http://127.0.0.1:8000/hello
+GET http://127.0.0.1:8000/nodes
 Accept:application/json
 ###
-
-POST http://127.0.0.1:8000/transactions/new
-Content-Type: application/json
-
-{
-  "sender": "isajsjisj9832328msd",
-  "recipient": "someone",
-  "amount": 5
-}
-###
+#
+#POST http://127.0.0.1:8000/transactions/new
+#Content-Type: application/json
+#
+#{
+#  "sender": "isajsjisj9832328msd",
+#  "recipient": "someone",
+#  "amount": 5
+#}
+####
